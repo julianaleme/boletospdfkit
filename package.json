@@ -1,0 +1,88 @@
+{
+  "_from": "plasoft-boletos",
+  "_id": "plasoft-boletos@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-yAceFlDxyFUXcR6HYrRTfYuTJRhpnSxG7VzUSumX06/uATcVQjAaSj9MesQRNLd1kqEynjt14YfUGMVormprNA==",
+  "_location": "/plasoft-boletos",
+  "_phantomChildren": {
+    "fontkit": "1.8.0",
+    "linebreak": "0.3.0",
+    "png-js": "0.1.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "plasoft-boletos",
+    "name": "plasoft-boletos",
+    "escapedName": "plasoft-boletos",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/plasoft-boletos/-/plasoft-boletos-1.0.4.tgz",
+  "_shasum": "b458ec448e4565e0595e477b280532f6cbb7a2ec",
+  "_spec": "plasoft-boletos",
+  "_where": "C:\\Protheus\\VisualCode\\Projetos Node\\Exemplo Boleto NodeJs\\boletospdfkit",
+  "author": {
+    "name": "Aldori Pessoa",
+    "email": "aldori.desenvolvimento@plasoft.com.br"
+  },
+  "bugs": {
+    "url": "https://github.com/plasoft-software/plasoft-boletos/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Felipe Amaral",
+      "email": "furflez@live.com"
+    }
+  ],
+  "dependencies": {
+    "pdfkit": "0.8.3"
+  },
+  "deprecated": false,
+  "description": "Gerador de boletos para vários bancos",
+  "devDependencies": {
+    "nodeunit": "0.11.2"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "homepage": "https://github.com/plasoft-software/plasoft-boletos#readme",
+  "keywords": [
+    "gerador",
+    "boleto",
+    "boletos",
+    "bancario",
+    "banco",
+    "cecred",
+    "sicredi",
+    "ailos",
+    "viacredi",
+    "bradesco",
+    "brasil",
+    "itau",
+    "caixa",
+    "economica",
+    "federal",
+    "santander",
+    "sicoob"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "plasoft-boletos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plasoft-software/plasoft-boletos.git"
+  },
+  "scripts": {
+    "test": "nodeunit ./tests/*test.js && nodeunit ./tests/boleto/bancos/*test.js && nodeunit ./tests/boleto/*test.js"
+  },
+  "version": "1.0.4"
+}
